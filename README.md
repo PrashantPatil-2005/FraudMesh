@@ -77,7 +77,8 @@ python -m venv venv
 # Mac/Linux
 # source venv/bin/activate
 
-pip install -r requirements_full.txt
+pip install -r requirements.txt
+pip install torch==2.1.2 torch-geometric==2.4.0 scikit-learn==1.3.2 networkx==3.2.1 gymnasium==0.29.1
 
 # 2. Download data
 # Go to https://www.kaggle.com/c/ieee-fraud-detection/data
